@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    border: solid 1px red;
+}
+
+h1,
+h2 {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #356336 !important;
+}
+
+h3,
+h4 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #345734; 
+}
+
+input, select{
+    padding:4px 15px;
+}
+
+li{
+    list-style: none;
+    /* border: 1px solid aqua; */
+}
+
+.icon-calculadora{
+    color: #EE7214;
+    cursor: pointer;
+}
+
+.icon-calculadora:hover{
+    color: #8e4003;
+}
+
+.container {
+    /* border: 1px solid green; */
+    background-color: #fcf5ef;
+    display: flex;
+    justify-content: center;
+}
+
+.cont-calculadora {
+    /* border: 1px solid blue; */
+    border-radius: 8px;
+    margin: 50px 0;
+    padding: 30px 40px;
+    background-color: #A6CF98;
+
+}
+
+.btn1 {
+    font-family: "Roboto Condensed",sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    border-radius: 12px;
+    padding: 6px 24px;
+    border: 0;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: #EE7214;
+    /* background-color: #FA7070; */
+    /* #557C55; */
+    color: white;
+}
+
+.ul1{
+    padding: 20px 50px;
+    /* border: 1px solid rgb(236, 14, 159); */
+    background-color: #f9f6f3;
+    border-radius: 8px;
+}
+
+.li-cal{
+    align-items: center;
+    margin-top: 20px;
+}
+
+.p-calculadora{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0px;
+}
+
+.col-calculadora-opciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#act-fisica{
+ margin-left: 50px;
+}
+
+#resultado{
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: none;
+}
+
+@media (min-width:600px) {
+    /* .cont-calculadora{
+        width: 30%;
+    } */
+}
